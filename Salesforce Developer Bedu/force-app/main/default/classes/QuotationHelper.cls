@@ -43,4 +43,8 @@ public class QuotationHelper implements QuotationSync{
         } */
         return 0;
     }
+    
+    public void StockEmptyAlert(){
+        /*List<productsInInventory> noEx = new List<productsInInventory>();*/
+    }
 }

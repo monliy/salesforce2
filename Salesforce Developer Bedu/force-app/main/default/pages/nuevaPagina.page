@@ -1,0 +1,27 @@
+<apex:page standardController="Inventario__c" renderAs="pdf">
+	<apex:sectionHeader title="Contact Edit" subtitle="Mi nueva página visualSalesforce"> 
+        <apex:form >
+        	<apex:pageBlock >
+            	<apex:outputPanel >
+                    El bootcamp de Salesforece 2022<br/>
+                    Soy integrante de este curso<br/>
+                    Última línea.
+                </apex:outputPanel>
+            </apex:pageBlock>
+            <apex:pageBlock >
+            	<apex:outputLabel >Esto es una Etiqueta(Label)</apex:outputLabel>
+                <apex:inputField value="{!Inventario__c.Name}"></apex:inputField>
+                <apex:commandButton value="Clic"/>
+            </apex:pageBlock>
+        </apex:form>
+    </apex:sectionHeader>
+    <style>
+    	.estilo{
+        	color: purple;
+        	font-size: 18px;
+        	font-family: Courier new;
+        	float: left;
+        	width: 100%;
+        }
+    </style>
+</apex:page>
